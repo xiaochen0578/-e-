@@ -1,0 +1,21 @@
+//
+//  MyPrefixHeader.pch
+//  兼职e族
+//
+//  Created by fanoi on 16/8/5.
+//  Copyright © 2016年 fanoi. All rights reserved.
+//
+
+#ifndef MyPrefixHeader_pch
+#define MyPrefixHeader_pch
+
+#define  UIScreenW ([UIScreen mainScreen].bounds.size.width)
+#define  UIScreenH ([UIScreen mainScreen].bounds.size.height)
+
+#define RGB(r, g, b)                        [UIColor colorWithRed:(r)/255.f green:(g)/255.f blue:(b)/255.f alpha:1.f]
+#define RGBA(r, g, b, a)                    [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+
+
+
+#endif
