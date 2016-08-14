@@ -88,6 +88,7 @@
     
     //    NSLog(@"改变值");
     self.scrollView.contentOffset = CGPointMake(self.segment.selectedSegmentIndex * UIScreenW, 0);
+    NSLog(@"dddddddd");
 }
 
 
