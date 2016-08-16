@@ -47,15 +47,14 @@
 -(void)AddressesBtn
 {
     UIButton *  _AddreBtn = [UIButton buttonWithType:UIButtonTypeSystem];
-    _AddreBtn.frame = CGRectMake(2, 24, 70, 40);
-    _AddreBtn.layer.cornerRadius = 5;
-    _AddreBtn.layer.masksToBounds = YES;
+    _AddreBtn.frame = CGRectMake(0, 24, 70, 40);
+//    _AddreBtn.layer.cornerRadius = 5;
+//    _AddreBtn.layer.masksToBounds = YES;
     [_AddreBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_AddreBtn setTitle:@"定位" forState:UIControlStateNormal];
-    _AddreBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
-    _AddreBtn.backgroundColor = [UIColor clearColor];
-//    [_AddreBtn setBackgroundImage:[UIImage imageNamed:@"dingwei"] forState:0];
-    [_AddreBtn setImage:[UIImage imageNamed:@"dingwei"] forState:0];
+//    _AddreBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+    UIImage *image = [UIImage imageNamed:@"dingwei"];
+    [_AddreBtn setImage:[image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] forState:0];
     _AddreBtn.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
     [_AddreBtn addTarget:self action:@selector(AddressesAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.titleBackGroundView addSubview:_AddreBtn];
@@ -63,5 +62,6 @@
 -(void)AddressesAction:(UIButton *)button
 {
     
+    NSLog(@"定位");
 }
 @end
