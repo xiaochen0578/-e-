@@ -52,6 +52,7 @@
 //    _AddreBtn.layer.masksToBounds = YES;
     [_AddreBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_AddreBtn setTitle:@"定位" forState:UIControlStateNormal];
+    _AddreBtn.titleLabel.font = [UIFont systemFontOfSize:18];
 //    _AddreBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
     UIImage *image = [UIImage imageNamed:@"dingwei"];
     [_AddreBtn setImage:[image imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] forState:0];

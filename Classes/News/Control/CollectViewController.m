@@ -20,7 +20,8 @@
     
     self.navigationController.navigationBarHidden = YES;
     
-    self.titleLable.text = @"消息记录";
+    self.titleLable.text = @"收藏记录";
+    
     [self hiddenBackItemBnt:NO];
 }
 

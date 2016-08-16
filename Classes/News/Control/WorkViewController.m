@@ -20,7 +20,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.navigationController.navigationBarHidden = YES;
     
-    self.titleLable.text = @"消息记录";
+    self.titleLable.text = @"工作记录";
     [self hiddenBackItemBnt:NO];
 }
 

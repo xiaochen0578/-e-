@@ -59,12 +59,12 @@
 -(UIView *)headView
 {
     if (!_headView) {
-        _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, UIScreenW, 100)];
+        _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, UIScreenW, 120)];
         
 //        _headView.backgroundColor = [UIColor redColor];
         
         UIImageView * imagaView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, UIScreenW, _headView.frame.size.height)];
-        imagaView.image=[UIImage imageNamed:@"dalvanniu"];
+        imagaView.image=[UIImage imageNamed:@"ad1"];
         
          [_headView addSubview:imagaView];
     }

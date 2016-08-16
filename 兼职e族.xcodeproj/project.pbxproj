@@ -313,16 +313,16 @@
 		B6D80AD11D54B67400FBAB62 /* Control */ = {
 			isa = PBXGroup;
 			children = (
-				B6FE00C11D61B625002F2589 /* CollectViewController.h */,
-				B6FE00C21D61B625002F2589 /* CollectViewController.m */,
+				B6D80AD21D54B67400FBAB62 /* NewsViewController.h */,
+				B6D80AD31D54B67400FBAB62 /* NewsViewController.m */,
+				B6FE00C71D61B625002F2589 /* WorkViewController.h */,
+				B6FE00C81D61B625002F2589 /* WorkViewController.m */,
 				B6FE00C31D61B625002F2589 /* RecordViewController.h */,
 				B6FE00C41D61B625002F2589 /* RecordViewController.m */,
 				B6FE00C51D61B625002F2589 /* ResumeViewController.h */,
 				B6FE00C61D61B625002F2589 /* ResumeViewController.m */,
-				B6FE00C71D61B625002F2589 /* WorkViewController.h */,
-				B6FE00C81D61B625002F2589 /* WorkViewController.m */,
-				B6D80AD21D54B67400FBAB62 /* NewsViewController.h */,
-				B6D80AD31D54B67400FBAB62 /* NewsViewController.m */,
+				B6FE00C11D61B625002F2589 /* CollectViewController.h */,
+				B6FE00C21D61B625002F2589 /* CollectViewController.m */,
 			);
 			path = Control;
 			sourceTree = "<group>";
@@ -354,18 +354,18 @@
 		B6D80AD71D54B67400FBAB62 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				B6D80AD81D54B67400FBAB62 /* PersonViewController.h */,
+				B6D80AD91D54B67400FBAB62 /* PersonViewController.m */,
+				B6FE00D31D61B650002F2589 /* MessageViewController.h */,
+				B6FE00D41D61B650002F2589 /* MessageViewController.m */,
 				B6FE00CD1D61B650002F2589 /* AutonymViewController.h */,
 				B6FE00CE1D61B650002F2589 /* AutonymViewController.m */,
 				B6FE00CF1D61B650002F2589 /* INFOViewController.h */,
 				B6FE00D01D61B650002F2589 /* INFOViewController.m */,
 				B6FE00D11D61B650002F2589 /* IntentionViewController.h */,
 				B6FE00D21D61B650002F2589 /* IntentionViewController.m */,
-				B6FE00D31D61B650002F2589 /* MessageViewController.h */,
-				B6FE00D41D61B650002F2589 /* MessageViewController.m */,
 				B6FE00D51D61B650002F2589 /* OpinionViewController.h */,
 				B6FE00D61D61B650002F2589 /* OpinionViewController.m */,
-				B6D80AD81D54B67400FBAB62 /* PersonViewController.h */,
-				B6D80AD91D54B67400FBAB62 /* PersonViewController.m */,
 			);
 			path = Control;
 			sourceTree = "<group>";

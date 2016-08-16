@@ -19,7 +19,7 @@
     self.view.backgroundColor = [UIColor yellowColor];
     self.navigationController.navigationBarHidden = YES;
     
-    self.titleLable.text = @"消息记录";
+    self.titleLable.text = @"已预约记录";
     [self hiddenBackItemBnt:NO];
 }
 

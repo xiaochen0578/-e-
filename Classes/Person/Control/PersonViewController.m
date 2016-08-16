@@ -79,9 +79,10 @@
 -(UIView *)headView
 {
     if (!_headView) {
-        _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, UIScreenW, 100)];
+        _headView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, UIScreenW, 150)];
         
-        _headView.backgroundColor = [UIColor redColor];
+        _headView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"grzxbg"]];
+        
 
     }
     return _headView;
